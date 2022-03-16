@@ -23,8 +23,8 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-using-html-css-and-js-Wrdrza6sz)
-- Live Site URL: [Add live site URL here](https://jorgemunozcerda.github.io/fem-advice-generator/)
+- [Solution in Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-using-html-css-and-js-Wrdrza6sz)
+- [Github Pages Live Demo](https://jorgemunozcerda.github.io/fem-advice-generator/)
 
 ## My process
 
