@@ -30,11 +30,10 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS
 - Javascript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
