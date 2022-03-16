@@ -1,28 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Advice generator app</title>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+		<title>Frontend Mentor | Advice generator app</title>
 
-  Advice #<!-- Advice ID goes here -->
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Advice #Advice ID goes here -->
 
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
+		<!-- "Advice text goes here" -->
+		<div class="card">
+			<div class="advice-number" id="advice-number"></div>
+			<div class="advice-content" id="advice-content"></div>
+			<div class="divider">
+				<picture
+					><source
+						media="(max-width: 700px)"
+						srcset="./images/pattern-divider-mobile.svg" />
+					<img
+						src="./images/pattern-divider-desktop.svg"
+						alt="aesthetic divider"
+						srcset=""
+				/></picture>
+			</div>
+			<div class="button" id="reroll">
+				<img src="./images/icon-dice.svg" alt="reroll button" />
+			</div>
+		</div>
+		<!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  </div> -->
+	</body>
+	<script>
+		const adviceNumber = document.getElementById('advice-number');
+		const adviceContent = document.getElementById('advice-content');
+		const button = document.getElementById('reroll');
+
+		const setAdvice = async function (e) {
+			await fetch('https://api.adviceslip.com/advice')
+				.then((res) => {
+					return res.json();
+				})
+				.then((data) => {
+					let { id, advice } = data.slip;
+					adviceNumber.innerText = `ADVICE #${id}`;
+					adviceContent.innerText = advice;
+				});
+		};
+
+		document.addEventListener('DOMContentLoaded', setAdvice);
+
+		button.addEventListener('click', setAdvice);
+	</script>
 </html>
