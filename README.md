@@ -24,7 +24,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 ### Links
 
 - [Solution in Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-using-html-css-and-js-Wrdrza6sz)
-- [Github Pages Live Demo](https://jorgemunozcerda.github.io/fem-advice-generator/)
+- [Github Pages Live Demo](https://jorgemunozcerda.github.io/fm-advice-generator/)
 
 ## My process
 
