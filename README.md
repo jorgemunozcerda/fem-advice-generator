@@ -17,7 +17,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-![Desktop Design](/1440-wide.png)
+![Desktop Design](/1440p-wide.png)
 ![Mobile Design](/375p-wide.png)
 
 
