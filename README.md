@@ -13,14 +13,12 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
 
-![Desktop Design](./1440p wide.png)
-![Mobile Design](./375p wide.png)
+[Desktop Design](./1440p wide.png)
+[Mobile Design](./375p wide.png)
 
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
