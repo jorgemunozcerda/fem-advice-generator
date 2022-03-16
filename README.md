@@ -17,16 +17,14 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Screenshot
 
-[Desktop Design](./1440p wide.png)
-[Mobile Design](./375p wide.png)
+![Desktop Design](1440p wide.png)
+![Mobile Design](375p wide.png)
 
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-using-html-css-and-js-Wrdrza6sz)
+- Live Site URL: [Add live site URL here](https://jorgemunozcerda.github.io/fem-advice-generator/)
 
 ## My process
 
