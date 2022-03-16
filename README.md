@@ -37,4 +37,4 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### What I learned
 
-The <picture> element in HTML to change between img sources without css or javascript.
+The picture element in HTML to change between img sources without css or javascript.
